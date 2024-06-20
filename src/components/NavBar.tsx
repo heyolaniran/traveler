@@ -3,6 +3,7 @@ import Link from "next/link";
 import { navLinks } from "@/data";
 import Button from "./ui/Button";
 import { IoArrowForward } from "react-icons/io5";
+import SideBar from "./ui/SideBar";
 
 export default function NavBar() {
 
@@ -25,6 +26,8 @@ export default function NavBar() {
             <div className="lg:flexCenter hidden">
                 <Button type="button" title="Checkout" position="right" icon={<IoArrowForward />} variant="btn_dark_green" />
             </div>
+            
+            <SideBar />
         </nav>
     )
 }
