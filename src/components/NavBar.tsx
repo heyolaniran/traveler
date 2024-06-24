@@ -24,7 +24,7 @@ export default function NavBar() {
             </ul>
 
             <div className="lg:flexCenter hidden">
-                <Button type="button" title="Checkout" position="right" icon={<IoArrowForward />} variant="btn_dark_green" />
+                <Button type="button" title="Checkout" position="right" icon={<IoArrowForward />} variant="btn_dark_green" otherClasses="-mt-4" />
             </div>
             
             <SideBar />
