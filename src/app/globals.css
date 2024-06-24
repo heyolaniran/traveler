@@ -34,7 +34,7 @@ body {
   }
 
   .padding-container {
-    @apply px-6 lg:px-20 3xl:px-0;
+    @apply px-6 lg:px-20  xl:px-0;
   }
 
   .flexCenter {
@@ -152,4 +152,16 @@ body {
 .hide-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+.struggle { 
+  background-image: url("https://uploads-ssl.webflow.com/634d41276b882236cc52de2c/642b5a41ad38a45c453b72a8_Vector.svg");
+  background-position : 75% 85%  ; 
+  background-repeat: no-repeat;
+  background-size: 11rem;
+  padding-bottom: 2%;
+  cursor: pointer;
+  transition: 1s;
+
+
 }
