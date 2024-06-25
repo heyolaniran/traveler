@@ -34,7 +34,7 @@ body {
   }
 
   .padding-container {
-    @apply px-6 lg:px-20  xl:px-0;
+    @apply px-6 lg:px-20 2xl:px-0;
   }
 
   .flexCenter {
@@ -129,12 +129,12 @@ body {
 
   /* Camp */
   .camp-quote {
-    @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;
+    @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 2xl:right-0;
   }
 
   /* Feature */
   .feature-phone {
-    @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex  3xl:left-20;
+    @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex  2xl:left-20;
   }
 
   /* Get App */
@@ -152,16 +152,4 @@ body {
 .hide-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-}
-
-.struggle { 
-  background-image: url("https://uploads-ssl.webflow.com/634d41276b882236cc52de2c/642b5a41ad38a45c453b72a8_Vector.svg");
-  background-position : 75% 85%  ; 
-  background-repeat: no-repeat;
-  background-size: 11rem;
-  padding-bottom: 2%;
-  cursor: pointer;
-  transition: 1s;
-
-
 }
