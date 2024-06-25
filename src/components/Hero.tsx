@@ -5,7 +5,7 @@ import { IoDownload, IoPlay } from "react-icons/io5";
 export default function Hero() {
 
     return (
-        <section className="max-container  flex fex-col border-2 padding-container gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row ">
+        <section className="max-container  flex fex-col  padding-container gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row ">
             <div className="hero-map" />
 
             <div className="relative z-20 px-6  flex-1 fex-col xl:w-1/2">
