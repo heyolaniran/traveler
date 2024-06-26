@@ -8,7 +8,7 @@ import SideBar from "./ui/SideBar";
 export default function NavBar() {
 
     return (
-        <nav className=" flex justify-between container relative z-30 py-5 ">
+        <nav className=" flex justify-between container px-4  relative z-30 py-5 ">
             <Link href={'/'}>
                 <Image src={'/hilink-logo.svg'} alt="Home" width={74} height={29} className=""  />
             </Link>
